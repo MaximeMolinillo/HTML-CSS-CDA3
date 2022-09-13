@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+</head>
+
+<body>
+<form action="">
+
+    <label for="nom">Votre nom*:</label><br>
+    <input type="text" name="nom" placeholder="nom de famille">
+    <br>
+    <label for="nom">Votre prénom*:</label><br>
+    <input type="text" name="prénom" placeholder="Prénom">
+
+    <br>
+    <label for="tel">Votre numéro de téléphone*:</label><br>
+    <input type="tel" name="tel" placeholder="0612547895">
+
+    <br>
+    <label for="mail">Adresse e-mail*:</label><br>
+    <input type="mail" name="mail">
+    <br>
+
+    <label for="city">Selectionner la ville:</label> <br>
+    <select name="city" id="city">
+        <option value="paris">Paris</option>
+        <option value="paris">lille</option>
+        <option value="paris">Bordeaux</option>
+        <option value="paris">Marseille</option>
+        <option value="paris">Nantes</option>
+        <option value="paris">Lyon</option>
+        <option value="paris">La Rochelle</option>
+        <option value="paris">Poitiers</option>
+        <option value="paris">Toulouse</option>
+    </select>
+
+    <br>
+    <label for="date">Date d'arrivée:</label><br>
+    <input type="date" name="date">
+
+    <br>
+    <label for="personnes">Nombre de personnes</label> <br>
+    <input type="number" name="personnes">
+    <br>
+    <h4>Vos options</h4>
+    <label for="clim">Climatisation</label>
+    <input type="checkbox" value="clim">
+
+    <label for="bar">Mini Bar</label>
+    <input type="checkbox" value="bar">
+
+    <label for="jacuzzi">Jacuzzi</label>
+    <input type="checkbox" value="jacuzzi">
+    <br>
+    <br>
+
+    <textarea name="commentaire" id="" cols="30" rows="2" placeholder="Ajouter un commentaire."></textarea>
+    <br>
+    <h3>Acceptations des conditions de ventes (CGV)*</h3> 
+    <label for="accept">J'accepte</label>
+    <input type="radio" value="J'accepte" name="accept">
+
+    <label for="noAccept">Je n'accepte pas</label>
+    <input type="radio" value="Je n'accepte pas" name="noAccept">
+
+    <br>
+    <br>
+    <input type="submit" value="submit">
+</form>
+
+
+</body>
+
+</html>
